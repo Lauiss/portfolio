@@ -1,0 +1,46 @@
+:root {
+  --bg_dark_color: #282c34;
+  --text_color: #f7f7f7;
+  --accentuation_color: #D0F0BB;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-color: var(--bg_dark_color);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: var(--text_color);
+}
+
+.text-container{
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: start;
+  margin: 0;
+  padding: 0;
+}
+
+p{
+  margin: 0;
+}
+
+span:hover{
+  color: var(--accentuation_color);
+  transition: 0.5s ease-in-out;
+}
+
+.App-link {
+  color: var(--accentuation_color);
+}
