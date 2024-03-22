@@ -1,7 +1,7 @@
 :root {
   --bg_dark_color: #282c34;
   --text_color: #f7f7f7;
-  --accentuation_color: #D0F0BB;
+  --accentuation_color: #63E6BE;
 }
 
 html {
@@ -9,25 +9,30 @@ html {
 }
 
 .App {
-  text-align: center;
+  display: grid;
+  grid-template-rows: max-content 1fr;
+  min-width: 0;
+  height: 100%;
+  width: 100%;
+  background-color: var(--bg_dark_color);
+  min-height: 100vh;
+  font-size: calc(10px + 2vmin);
+  color: var(--text_color);
 }
 
 .App-header {
-  background-color: var(--bg_dark_color);
-  min-height: 100vh;
+  width: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: var(--text_color);
 }
 
 .text-container{
   display: flex;
   flex-direction: column;
-  align-items: start;
-  justify-content: start;
+  align-items: center;
+  justify-content: center;
   margin: 0;
   padding: 0;
 }
@@ -44,3 +49,4 @@ span:hover{
 .App-link {
   color: var(--accentuation_color);
 }
+

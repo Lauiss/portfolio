@@ -7,7 +7,9 @@ function App() {
     <div className="App">
       <div className="App-header">
         <CustomHeader />
-        <div className="text-container">
+      </div>
+      <div className="text-container">
+        <div>
           <p>Bonjour 👋</p>
           <p>Je suis <span>Florian</span>, Ingénieur logiciel.</p>
         </div>

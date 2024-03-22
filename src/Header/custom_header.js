@@ -1,19 +1,22 @@
 import './custom_header.css';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faLinkedin } from '@fortawesome/free-brands-svg-icons'
+import { faEnvelope} from '@fortawesome/free-solid-svg-icons'
 
 function CustomHeader(){
     return(
-        <div>
-            <div>
-            <label class="switch">
+        <div className="headerContainer">
+            <div className="toggleTitleContainer">
+            <label className="switch">
                 <input type="checkbox" />
-                <span class="slider round"></span>
+                <span className="slider round"></span>
             </label>
             <label>Florian AMANN</label>
             </div>
 
-            <ul>
-                <li>Contact</li>
-                <li>Caca</li>
+            <ul className="iconContainer">
+                <li><FontAwesomeIcon icon={faEnvelope} className="icon" /></li>
+                <li><FontAwesomeIcon icon={faLinkedin} className="icon" /></li>
             </ul>
         </div>
     )

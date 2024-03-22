@@ -2,8 +2,9 @@
 .switch {
     position: relative;
     display: inline-block;
-    width: 60px;
-    height: 34px;
+    width: 3.75rem;
+    height: 2rem;
+    margin-right: 2rem;
   }
   
   /* Hide default HTML checkbox */
@@ -59,4 +60,39 @@
   
   .slider.round:before {
     border-radius: 50%;
+  }
+
+  .headerContainer {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+  }
+
+  .iconContainer {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+  }
+
+  .toggleTitleContainer{
+    display: flex;
+    flex-direction: row;
+    margin-left: 4rem
+  }
+
+  ul {
+    margin-right: 4rem;
+  }
+
+  ul li {
+    list-style: none;
+    display: inline;
+    margin-right: 1rem;
+  }
+
+  li:hover {
+    color: var(--accentuation_color);
+    transition: 0.5s ease-in-out;
   }
