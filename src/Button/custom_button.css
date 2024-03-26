@@ -1,0 +1,38 @@
+/* CSS */
+button {
+    background-color: #222;
+    border-radius: 0.5rem;
+    border-style: none;
+    box-sizing: border-box;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 1rem;
+    font-weight: 700;
+    line-height: 1.5;
+    margin: 0;
+    max-width: none;
+    min-height: 2rem;
+    min-width: 2rem;
+    outline: none;
+    overflow: hidden;
+    padding: 1rem 1.5rem;
+    position: relative;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    transition: transform 0.5s ease;
+  }
+  
+  button:hover,
+  button:focus {
+    opacity: .75;
+    color: #63E6BE;
+    transform: translateY(-1rem);
+    transition: 0.5s ease-in-out;
+  }
+
+  .btn-container {
+    padding: 1rem;
+  }
+  
