@@ -12,7 +12,8 @@ function CustomHeader({ condition, onToggle, lightIcon, darkIcon }){
             <div className="toggleTitleContainer">
                 {/* <FontAwesomeIcon icon={faMoon} className="toggle-icon" /> */}
                 <Toggle className="toggle-icon" condition={condition} onToggle={onToggle} lightIcon={lightIcon} darkIcon={darkIcon} />
-                <label>Florian AMANN</label>
+                {/* <label>Florian AMANN</label> */}
+                <label>FR | DE | EN</label>
             </div>
 
             <ul className="iconContainer">
