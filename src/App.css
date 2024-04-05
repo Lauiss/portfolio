@@ -1,11 +1,24 @@
-:root {
-  --bg_dark_color: #282c34;
+.light-theme {
+  --bg_color: #f7f7f7;
+  --text_color: #282c34;
+  --accentuation_color: #63E6BE;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.dark-theme {
+  --bg_color: #282c34;
   --text_color: #f7f7f7;
   --accentuation_color: #63E6BE;
+  transition: background-color 0.3s ease, color 0.3s ease;
 }
 
 html {
   scroll-behavior: smooth;
+}
+
+p {
+  font-size: 3rem;
+  margin: 0;
 }
 
 .App {
@@ -13,7 +26,7 @@ html {
   grid-template-rows: max-content 1fr;
   height: 100%;
   width: 100%;
-  background-color: var(--bg_dark_color);
+  background-color: var(--bg_color);
   min-height: 100vh;
   font-size: calc(10px + 2vmin);
   color: var(--text_color);
@@ -27,18 +40,14 @@ html {
   justify-content: center;
 }
 
-.text-container{
+.welcome-page{
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: 4rem;
+  font-size: 3rem;
   margin: 0;
   padding: 0;
-}
-
-p{
-  margin: 0;
 }
 
 span {
@@ -55,9 +64,10 @@ span:hover{
   flex-direction: row;
   align-items: center;
   justify-content: center;
-  padding-top: 8rem;
+  padding-top: 4rem;
   width:100%;
   margin:0;
+  gap: 5rem;
 }
 
 .hand-icon {
@@ -72,4 +82,19 @@ span:hover{
   0% { transform: rotate(-20deg); }
   50% { transform: rotate(0deg); }
   100% { transform: rotate(-20deg); }
+}
+
+@media only screen and (max-width: 768px) {
+  html {
+    font-size: 0.5rem;
+  }
+
+  .welcome-page {
+    font-size: 10rem;
+    align-items: center;
+  }
+
+  .App-header {
+    font-size: 0.5rem;
+  }
 }
