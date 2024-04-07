@@ -2,10 +2,10 @@ import './custom_button.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
 
-function CustomButton({ icon }){
+function CustomButton({ icon, onclickfunction }){
     return(
         <div className="btn-container">
-            <button role=""><FontAwesomeIcon icon={icon} className="icon"/></button>
+            <button role="" onClick={onclickfunction}><FontAwesomeIcon icon={icon} className="icon"/></button>
         </div>
     )
 }

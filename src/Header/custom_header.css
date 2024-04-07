@@ -7,6 +7,21 @@
     font-size: 2rem;
   }
 
+  .lang-span {
+    cursor: pointer;
+  }
+
+  .active, .lang-span:hover {
+    text-decoration: underline;
+    color: var(--accentuation_color);
+    text-decoration-color: var(--accentuation_color) ;
+    transition: 0.3s ease;
+  }
+
+  .toggleTitleContainer label span {
+    margin: 0 1rem 0 1rem;
+  }
+
   .iconContainer {
     display: flex;
     align-items: center;

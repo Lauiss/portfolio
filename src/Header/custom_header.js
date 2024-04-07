@@ -4,16 +4,26 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faLinkedin } from '@fortawesome/free-brands-svg-icons'
 import { faEnvelope } from '@fortawesome/free-solid-svg-icons'
 import Toggle from '../components/toggle/toggle';
+import i18n from 'i18next';
 
-function CustomHeader({ condition, onToggle, lightIcon, darkIcon }){
+function CustomHeader({ condition, onToggle, lightIcon, darkIcon, tradFunc }){
+    const activeLanguage = i18n.language;
 
     return(
         <div className="headerContainer">
             <div className="toggleTitleContainer">
-                {/* <FontAwesomeIcon icon={faMoon} className="toggle-icon" /> */}
                 <Toggle className="toggle-icon" condition={condition} onToggle={onToggle} lightIcon={lightIcon} darkIcon={darkIcon} />
-                {/* <label>Florian AMANN</label> */}
-                <label>FR | DE | EN</label>
+                <label>
+                    <span className={`lang-span ${activeLanguage === 'fr' ? 'active' : ''}`} onClick={() => tradFunc('fr')}>
+                        Fr
+                    </span>|
+                    <span className={`lang-span ${activeLanguage === 'de' ? 'active' : ''}`} onClick={() => tradFunc('de')}>
+                        De
+                    </span>|
+                    <span className={`lang-span ${activeLanguage === 'en' ? 'active' : ''}`} onClick={() => tradFunc('en')}>
+                        En
+                    </span>  
+                </label> 
             </div>
 
             <ul className="iconContainer">
