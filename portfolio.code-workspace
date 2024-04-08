@@ -1,0 +1,45 @@
+{
+  "folders": [
+    {
+      "path": "."
+    }
+  ],
+  "settings": {
+    "search.exclude": {
+      "**/node_modules": true,
+    },
+    "files.exclude": {
+      "**/package-lock.json": true
+    },
+    "editor.linkedEditing": true,
+    "editor.insertSpaces": true,
+    "editor.tabSize": 2,
+    "editor.codeActionsOnSave": {
+      "source.organizeImports": "explicit",
+      "source.fixAll": "explicit"
+    },
+    "editor.formatOnSave": true,
+    "html.format.wrapAttributes": "preserve-aligned",
+    "html.format.wrapLineLength": 0,
+    "editor.trimAutoWhitespace": true,
+    "editor.detectIndentation": false,
+    "editor.autoIndent": "advanced",
+    "files.trimTrailingWhitespace": true,
+    "files.insertFinalNewline": true,
+    "eslint.codeActionsOnSave.mode": "all",
+    "eslint.rules.customizations": [
+      {
+        "rule": "*",
+        "severity": "warn"
+      }
+    ]
+  },
+  "extensions": {
+    "recommendations": [
+      "dbaeumer.vscode-eslint",
+      "donjayamanne.githistory",
+      "janne252.fontawesome-autocomplete",
+      "ms-vscode.vs-keybindings"
+    ]
+  }
+}
