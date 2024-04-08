@@ -1,12 +1,12 @@
+import { faFreeCodeCamp, faGithub } from '@fortawesome/free-brands-svg-icons';
+import { faCode, faMoon, faSun, faUser } from '@fortawesome/free-solid-svg-icons';
+import i18n from 'i18next';
+import React, { useEffect, useState } from 'react';
+import { initReactI18next, useTranslation } from 'react-i18next';
 import './App.css';
 import CustomButton from './components/button/custom_button';
-import CustomHeader from './header/custom_header';
-import { faUser, faCode, faSun, faMoon } from '@fortawesome/free-solid-svg-icons'
-import { faGithub, faFreeCodeCamp } from '@fortawesome/free-brands-svg-icons';
-import Presentation from './presentation/presentation';
-import React, {useState, useEffect} from 'react';
-import i18n from 'i18next';
-import { useTranslation, initReactI18next } from 'react-i18next';
+import CustomHeader from './items/header/custom_header';
+import Presentation from './items/presentation/presentation';
 
 i18n
   .use(initReactI18next)

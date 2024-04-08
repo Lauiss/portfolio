@@ -13,12 +13,25 @@
 }
 
 img {
-    height: 10rem;
-    width: 10rem;
+    height: 20rem;
+    width: 20rem;
     border-radius: 50%;
-    border: 1rem black;
+    margin: 10rem 0 0 10rem;
+}
+
+button {
+  margin-left: 5rem;
 }
 
 .presentation-page p {
-    font-size: 1rem;
+    font-size: 1.5rem;
+    margin: 10rem;
+}
+
+
+@media only screen and (max-width: 768px) {
+
+  .presentation-page p {
+    margin: 10rem 5rem;
+  }
 }
