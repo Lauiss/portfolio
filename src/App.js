@@ -50,7 +50,7 @@ function App() {
 
 
   const toggleDarkMode = () => {
-      setDarkMode(prevDarkMode => !prevDarkMode);
+    setDarkMode(prevDarkMode => !prevDarkMode);
   }
 
   const scrollTo = (id) => () => {
@@ -67,14 +67,14 @@ function App() {
       </div>
       <div className="welcome-page">
         <div>
-          <p>{ translate('HELLO') }<span className="hand-icon">👋</span></p>
-          <p>{ translate('I_AM') } <span>Florian</span>, { translate('SOFTWARE_ENGINEER') }</p>
+          <p>{translate('HELLO')}<span className="hand-icon">👋</span></p>
+          <p>{translate('I_AM')} <span>Florian</span>, {translate('SOFTWARE_ENGINEER')}</p>
         </div>
         <div className="btns-containers">
-        <CustomButton onclickfunction={() => scrollTo('presentation')} icon={faUser} className="btn-margin" />
-        <CustomButton icon={faGithub} className="btn-margin" />
-        <CustomButton icon={faFreeCodeCamp} className="btn-margin" />
-        <CustomButton icon={faCode} className="btn-margin" />
+          <CustomButton onClickFunction={() => scrollTo('presentation')} icon={faUser} animateBtn={true} className="btn-margin" />
+          <CustomButton icon={faGithub} animateBtn={true} className="btn-margin" />
+          <CustomButton icon={faFreeCodeCamp} animateBtn={true} className="btn-margin" />
+          <CustomButton icon={faCode} animateBtn={true} className="btn-margin" />
         </div>
       </div>
       <div id="presentation" className="presentation-section">

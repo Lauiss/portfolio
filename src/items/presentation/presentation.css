@@ -1,37 +1,36 @@
 .presentation-page {
-    display: grid;
-    grid-template-columns: 1fr 9fr;
-    gap: 1rem
+  display: grid;
+  grid-template-columns: 1fr 9fr;
+  gap: 1rem;
+  margin: 5rem;
 }
 
 .left-block {
-
+  margin: 10rem 0 0 0;
 }
 
-.right-block {
-
-}
+.right-block {}
 
 img {
-    height: 20rem;
-    width: 20rem;
-    border-radius: 50%;
-    margin: 10rem 0 0 10rem;
+  height: 20rem;
+  width: 20rem;
+  border-radius: 50%;
+  /* margin: 10rem 0 0 10rem; */
 }
 
-button {
-  margin-left: 5rem;
+.btn-action {
+  /* margin-left: 5rem; */
 }
 
 .presentation-page p {
-    font-size: 1.5rem;
-    margin: 10rem;
+  font-size: 1.5rem;
+  margin: 10rem;
 }
 
 
 @media only screen and (max-width: 768px) {
 
   .presentation-page p {
-    margin: 10rem 5rem;
+    margin: 10rem 2rem;
   }
 }
