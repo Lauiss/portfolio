@@ -1,5 +1,8 @@
 {
     "HELLO": "Bonjour",
     "I_AM": "Je suis",
-    "SOFTWARE_ENGINEER": "Ingénieur logiciel"
+    "SOFTWARE_ENGINEER": "Ingénieur logiciel",
+    "DOWNLOAD_CV": "Télécharger le CV",
+    "CONTACT_MAIL": "Contacter par mail",
+    "LINKEDIN": "Visiter le profil LinkedIn"
 }

@@ -16,7 +16,7 @@ i18n
         translation: require('./translate/fr.json')
       },
       en: {
-        translation: require('./translate/fr.json')
+        translation: require('./translate/en.json')
       },
       de: {
         translation: require('./translate/de.json')
@@ -78,7 +78,7 @@ function App() {
         </div>
       </div>
       <div id="presentation" className="presentation-section">
-        <Presentation />
+        <Presentation translate={translate} />
       </div>
     </div>
   );
