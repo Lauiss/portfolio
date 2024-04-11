@@ -7,6 +7,7 @@ import './App.css';
 import CustomButton from './components/button/custom_button';
 import CustomHeader from './items/header/custom_header';
 import Presentation from './items/presentation/presentation';
+import SkillsAndProjects from './items/skills_and_projects/skills_and_projects';
 
 i18n
   .use(initReactI18next)
@@ -79,6 +80,9 @@ function App() {
       </div>
       <div id="presentation" className="presentation-section">
         <Presentation translate={translate} />
+      </div>
+      <div id="skills-and-projects">
+        <SkillsAndProjects />
       </div>
     </div>
   );

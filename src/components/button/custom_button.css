@@ -1,4 +1,4 @@
-button {
+.custom-btn {
   background-color: #222;
   border-radius: 1rem;
   border-style: none;
@@ -18,8 +18,8 @@ button {
   box-shadow: 0.1rem 0.1rem #000;
 }
 
-button:hover,
-button:focus {
+.custom-btn:hover,
+.custom-btn:focus {
   opacity: .75;
   color: var(--accentuation_color);
   transition: 0.5s ease-in-out;

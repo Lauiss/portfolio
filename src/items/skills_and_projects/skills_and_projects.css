@@ -1,0 +1,15 @@
+.skills-and-projects {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+  height: 100vh;
+  margin: 5rem 0 5rem 5rem;
+}
+
+/* .skills {
+  /* Styles pour la partie compétences
+} */
+/*
+.projects {
+  /* Styles pour la partie projets
+} */
