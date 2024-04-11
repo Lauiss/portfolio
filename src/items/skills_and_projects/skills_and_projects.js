@@ -1,14 +1,16 @@
+import { faAngular, faJs, faReact } from '@fortawesome/free-brands-svg-icons';
 import React, { useState } from 'react';
-// import Timeline from 'react-timeline-scribble';
 import { Chrono } from 'react-chrono';
 import './skills_and_projects.css';
+
 
 const SkillsAndProjects = () => {
   const [activeSkill, setActiveSkill] = useState(null);
 
   const skills = [
-    { name: 'JavaScript', icon: 'prout', frameworks: ['Node.js', 'Express.js'] },
-    { name: 'React', icon: 'prout', frameworks: ['Redux', 'Next.js'] },
+    { name: 'JavaScript', icon: { faJs }, frameworks: ['Node.js', 'Express.js'] },
+    { name: 'Angular', icon: { faAngular }, frameworks: ['Node.js', 'Express.js'] },
+    { name: 'React', icon: { faReact }, frameworks: ['Redux', 'Next.js'] },
     // Ajoutez plus de compétences ici
   ];
 
@@ -25,13 +27,15 @@ const SkillsAndProjects = () => {
     <div className="skills-and-projects">
       <div className="skills">
         <h2>Compétences</h2>
-        <ul>
+
+        <div className='skills-container'>
           {skills.map((skill, index) => (
-            <li key={index} onMouseOver={() => setActiveSkill(skill)}>
-              {skill.icon} {skill.name}
-            </li>
+            <div key={index} onMouseOver={() => setActiveSkill(skill)} class="skill-badge">
+              {/* <FontAwesomeIcon icon={skill.icon} className='icon'/> */}
+              {skill.name}
+            </div>
           ))}
-        </ul>
+        </div>
         {activeSkill && (
           <div className="frameworks">
             <h3>Frameworks pour {activeSkill.name}</h3>
@@ -45,7 +49,7 @@ const SkillsAndProjects = () => {
       </div>
       <div className="projects">
         <h2>Projets</h2>
-        <Chrono mode="VERTICAL_ALTERNATING" disableToolbar={true} timelinePointShape='diamond' scrollable={true}
+        <Chrono mode="VERTICAL_ALTERNATING" disableToolbar={true} timelinePointShape='diamond' scrollable
           items={projects.map(project => ({ title: project.title, cardTitle: project.date }))} />
       </div>
     </div>

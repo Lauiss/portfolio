@@ -54,13 +54,6 @@ function App() {
     setDarkMode(prevDarkMode => !prevDarkMode);
   }
 
-  const scrollTo = (id) => () => {
-    const element = document.getElementById(id);
-    if (element) {
-      element.scrollIntoView({ behavior: 'smooth' });
-    }
-  };
-
   return (
     <div className={(darkMode ? 'dark-theme' : 'light-theme') + " App"}>
       <div className="App-header">
@@ -72,8 +65,8 @@ function App() {
           <p>{translate('I_AM')} <span>Florian</span>, {translate('SOFTWARE_ENGINEER')}</p>
         </div>
         <div className="btns-containers">
-          <CustomButton onClickFunction={() => scrollTo('presentation')} icon={faUser} animateBtn={true} className="btn-margin" />
-          <CustomButton icon={faGithub} animateBtn={true} className="btn-margin" />
+          <CustomButton href={"#presentation"} icon={faUser} animateBtn={true} className="btn-margin" />
+          <CustomButton href={"#skills-and-projects"} icon={faGithub} animateBtn={true} className="btn-margin" />
           <CustomButton icon={faFreeCodeCamp} animateBtn={true} className="btn-margin" />
           <CustomButton icon={faCode} animateBtn={true} className="btn-margin" />
         </div>
