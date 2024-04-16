@@ -11,10 +11,11 @@
     cursor: pointer;
   }
 
-  .active, .lang-span:hover {
+  .active,
+  .lang-span:hover {
     text-decoration: underline;
     color: var(--accentuation_color);
-    text-decoration-color: var(--accentuation_color) ;
+    text-decoration-color: var(--accentuation_color);
     transition: 0.3s ease;
   }
 
@@ -28,7 +29,7 @@
     flex-direction: row;
   }
 
-  .toggleTitleContainer{
+  .toggleTitleContainer {
     display: flex;
     flex-direction: row;
     margin-left: 4rem;
@@ -43,7 +44,7 @@
   ul li {
     list-style: none;
     display: inline;
-    margin-right: 1rem;
+    margin-right: 2rem;
     transition: transform 1s ease;
   }
 
@@ -53,5 +54,12 @@
   }
 
   .toggle-icon {
-    margin:  0 1rem  0 0;
+    margin: 0 1rem 0 0;
+  }
+
+  a {
+    text-decoration: none;
+    /* Supprime le soulignement */
+    color: inherit;
+    /* Fait en sorte que le lien ait la même couleur que le texte environnant */
   }
