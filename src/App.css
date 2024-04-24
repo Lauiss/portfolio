@@ -42,10 +42,11 @@ p {
   top: 0;
   left: 0;
   right: 0;
-  z-index: 999; /* Pour s'assurer que le header reste au-dessus des autres éléments */
+  z-index: 999;
+  margin-top: 1rem;
 }
 
-.welcome-page{
+.welcome-page {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -62,19 +63,19 @@ p span {
   font-weight: 600;
 }
 
-p span:hover{
+p span:hover {
   color: var(--accentuation_color);
   transition: 0.5s ease-in-out;
 }
 
-.btns-containers{
+.btns-containers {
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: center;
   padding-top: 4rem;
-  width:100%;
-  margin:0;
+  width: 100%;
+  margin: 0;
   gap: 5rem;
 }
 
@@ -86,15 +87,25 @@ p span:hover{
   animation: handWave 1s ease infinite;
 }
 
-.presentation-section {
+.presentation-section .skills-and-projects {
+  margin: 0;
+  padding: 0;
   height: 100vh;
   overflow-y: auto;
 }
 
 @keyframes handWave {
-  0% { transform: rotate(-20deg); }
-  50% { transform: rotate(0deg); }
-  100% { transform: rotate(-20deg); }
+  0% {
+    transform: rotate(-20deg);
+  }
+
+  50% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(-20deg);
+  }
 }
 
 @media only screen and (max-width: 768px) {

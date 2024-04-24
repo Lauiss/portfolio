@@ -1,5 +1,5 @@
-import { faFreeCodeCamp, faGithub } from '@fortawesome/free-brands-svg-icons';
-import { faCode, faMoon, faSun } from '@fortawesome/free-solid-svg-icons';
+import { faGithub } from '@fortawesome/free-brands-svg-icons';
+import { faMoon, faPuzzlePiece, faSun, faUser } from '@fortawesome/free-solid-svg-icons';
 import i18n from 'i18next';
 import React, { useEffect, useState } from 'react';
 import { initReactI18next, useTranslation } from 'react-i18next';
@@ -66,16 +66,15 @@ function App() {
         </div>
         <div className="btns-containers">
           <CustomButton href={"https://github.com/Lauiss"} icon={faGithub} animateBtn={true} className="btn-margin" />
-          <CustomButton href={"#skills-and-projects"} icon={faGithub} animateBtn={true} className="btn-margin" />
-          <CustomButton icon={faFreeCodeCamp} animateBtn={true} className="btn-margin" />
-          <CustomButton icon={faCode} animateBtn={true} className="btn-margin" />
+          <CustomButton href={"#presentation"} icon={faUser} animateBtn={true} className="btn-margin" />
+          <CustomButton href={"#skills-and-projects"} icon={faPuzzlePiece} animateBtn={true} className="btn-margin" />
         </div>
       </div>
       <div id="presentation" className="presentation-section">
         <Presentation translate={translate} />
       </div>
-      <div id="skills-and-projects">
-        <SkillsAndProjects />
+      <div id="skills-and-projects" className="skills-and-projects">
+        <SkillsAndProjects translate={translate} />
       </div>
     </div>
   );

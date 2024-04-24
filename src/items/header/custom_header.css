@@ -23,12 +23,6 @@
     margin: 0 1rem 0 1rem;
   }
 
-  .iconContainer {
-    display: flex;
-    align-items: center;
-    flex-direction: row;
-  }
-
   .toggleTitleContainer {
     display: flex;
     flex-direction: row;
@@ -59,7 +53,6 @@
 
   a {
     text-decoration: none;
-    /* Supprime le soulignement */
     color: inherit;
-    /* Fait en sorte que le lien ait la même couleur que le texte environnant */
+
   }

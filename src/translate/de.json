@@ -1,9 +1,10 @@
 {
-    "HELLO": "Hallo",
-    "I_AM": "Ich bin",
-    "SOFTWARE_ENGINEER": "Computertechniker",
-    "DOWNLOAD_CV": "Lebenslauf herunterladen",
-    "CONTACT_MAIL": "Bei Mail kontaktieren",
-    "LINKEDIN": "LinkedIn profile besuchen",
-    "PRESENTATION": "Vorstellung"
+  "HELLO": "Hallo",
+  "I_AM": "Ich bin",
+  "SOFTWARE_ENGINEER": "Computertechniker",
+  "DOWNLOAD_CV": "Lebenslauf herunterladen",
+  "CONTACT_MAIL": "Bei Mail kontaktieren",
+  "LINKEDIN": "LinkedIn profile besuchen",
+  "PRESENTATION": "Vorstellung",
+  "SKILLS": "Kompetenzen"
 }

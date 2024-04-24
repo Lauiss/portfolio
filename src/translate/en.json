@@ -1,9 +1,10 @@
 {
-    "HELLO": "Hello",
-    "I_AM": "I am",
-    "SOFTWARE_ENGINEER": "Software engineer",
-    "DOWNLOAD_CV": "Download CV",
-    "CONTACT_MAIL": "Contact by mail",
-    "LINKEDIN": "Visit LinkedIn profile",
-    "PRESENTATION": "Presentation"
+  "HELLO": "Hello",
+  "I_AM": "I am",
+  "SOFTWARE_ENGINEER": "Software engineer",
+  "DOWNLOAD_CV": "Download CV",
+  "CONTACT_MAIL": "Contact by mail",
+  "LINKEDIN": "Visit LinkedIn profile",
+  "PRESENTATION": "Presentation",
+  "SKILLS": "Skills"
 }

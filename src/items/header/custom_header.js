@@ -1,5 +1,3 @@
-import { faHouseChimney, faPuzzlePiece, faUser } from '@fortawesome/free-solid-svg-icons';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import i18n from 'i18next';
 import React from 'react';
 import Toggle from '../../components/toggle/toggle';
@@ -24,12 +22,6 @@ function CustomHeader({ condition, onToggle, lightIcon, darkIcon, tradFunc }) {
           </span>
         </label>
       </div>
-
-      <ul className="iconContainer">
-        <li><a href={"#welcome-page"} ><FontAwesomeIcon icon={faHouseChimney} /></a></li>
-        <li><a href={"#presentation"} ><FontAwesomeIcon icon={faUser} /></a></li>
-        <li><a href={"#skills-and-projects"} ><FontAwesomeIcon icon={faPuzzlePiece} /></a></li>
-      </ul>
     </div>
   )
 }
