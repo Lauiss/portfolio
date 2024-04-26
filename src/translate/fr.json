@@ -6,5 +6,17 @@
   "CONTACT_MAIL": "Contacter par mail",
   "LINKEDIN": "Visiter le profil LinkedIn",
   "PRESENTATION": "Présentation",
-  "SKILLS": "Compétences"
+  "SKILLS": "Compétences",
+  "OTHER_SKILLS": "Autres compétences",
+  "PROJECTS": "Projets",
+  "PHOTO_EDITING": "Montage photo",
+  "VIDEO_EDITING": "Montage vidéo",
+  "SUITE_MICROSOFT": "Suite Microsoft",
+  "SUITE_ADOBE": "Suite Adobe",
+  "PROJECT_MANAGEMENT": "Gestion de projet",
+  "AUTOCLICKER": "AutoClicker",
+  "DISCORD_BOT": "Bot Discord",
+  "PWD_GENERATOR": "Générateur de mots de passe",
+  "VINTED_API_AND_PROXY_MANAGER": "API Vinted couplée à un Proxy Manager",
+  "PORTFOLIO": "Portfolio"
 }
