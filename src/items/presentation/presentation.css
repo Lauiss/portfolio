@@ -36,13 +36,35 @@ img {
 }
 
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 1400px) {
 
-  .presentation-page p {
-    margin: 10rem 2rem;
+  .presentation-page {
+    margin: 0 5rem 0 5rem;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+  }
+
+  .img-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
 
   .left-block {
-    margin: 30rem 0 0 0rem;
+    margin: 15rem 0 0 0rem;
+  }
+
+  .title {
+    margin: 0 0 0 2rem;
+  }
+
+  .txt-container .txt {
+    margin: 2rem 2rem;
+  }
+
+  .btn-action {
+    font-size: 2rem;
   }
 }

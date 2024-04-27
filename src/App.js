@@ -1,5 +1,4 @@
-import { faGithub } from '@fortawesome/free-brands-svg-icons';
-import { faMoon, faPuzzlePiece, faSun, faUser } from '@fortawesome/free-solid-svg-icons';
+import { faDiagramProject, faMoon, faPuzzlePiece, faSun, faUser } from '@fortawesome/free-solid-svg-icons';
 import i18n from 'i18next';
 import React, { useEffect, useState } from 'react';
 import { initReactI18next, useTranslation } from 'react-i18next';
@@ -7,7 +6,8 @@ import './App.css';
 import CustomButton from './components/button/custom_button';
 import CustomHeader from './items/header/custom_header';
 import Presentation from './items/presentation/presentation';
-import SkillsAndProjects from './items/skills_and_projects/skills_and_projects';
+import Projects from './items/projects/projects';
+import Skills from './items/skills/skills';
 
 i18n
   .use(initReactI18next)
@@ -65,16 +65,19 @@ function App() {
           <p>{translate('I_AM')} <span>Florian</span>, {translate('SOFTWARE_ENGINEER')}</p>
         </div>
         <div className="btns-containers">
-          <CustomButton href={"https://github.com/Lauiss"} icon={faGithub} animateBtn={true} className="btn-margin" />
           <CustomButton href={"#presentation"} icon={faUser} animateBtn={true} className="btn-margin" />
-          <CustomButton href={"#skills-and-projects"} icon={faPuzzlePiece} animateBtn={true} className="btn-margin" />
+          <CustomButton href={"#skills"} icon={faPuzzlePiece} animateBtn={true} className="btn-margin" />
+          <CustomButton href={"#projects"} icon={faDiagramProject} animateBtn={true} className="btn-margin" />
         </div>
       </div>
       <div id="presentation" className="presentation-section">
         <Presentation translate={translate} />
       </div>
-      <div id="skills-and-projects" className="skills-and-projects">
-        <SkillsAndProjects translate={translate} />
+      <div id="skills" className="skills">
+        <Skills translate={translate} />
+      </div>
+      <div id="projects" className="projects">
+        <Projects translate={translate} />
       </div>
     </div>
   );

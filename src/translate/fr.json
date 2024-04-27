@@ -18,5 +18,6 @@
   "DISCORD_BOT": "Bot Discord",
   "PWD_GENERATOR": "Générateur de mots de passe",
   "VINTED_API_AND_PROXY_MANAGER": "API Vinted couplée à un Proxy Manager",
-  "PORTFOLIO": "Portfolio"
+  "PORTFOLIO": "Portfolio",
+  "GITHUB": "Vers mon GitHub"
 }

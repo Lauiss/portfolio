@@ -2,11 +2,10 @@ import { faAngular, faJava, faJs, faReact, faSwift, faWindows } from '@fortaweso
 import { faCamera, faCode, faDatabase, faTerminal, faVideo } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import React from 'react';
-import { Chrono } from 'react-chrono';
-import './skills_and_projects.css';
+import './skills.css';
 
 
-const SkillsAndProjects = ({ translate }) => {
+const Skills = ({ translate }) => {
   const skills = [
     { name: 'JavaScript', icon: faJs },
     { name: 'Angular', icon: faAngular },
@@ -29,25 +28,7 @@ const SkillsAndProjects = ({ translate }) => {
     { name: translate('PROJECT_MANAGEMENT'), icon: faReact },
   ];
 
-  const projects = [
-    { title: translate('AUTOCLICK'), date: '2020-06-21' },
-    { title: translate('DISCORD_BOT'), date: '2021-01-24' },
-    { title: translate('PWD_GENERATOR'), date: '2021-08-02' },
-    { title: translate('VINTED_API_AND_PROXY_MANAGER'), date: '2023-03-10' },
-    { title: translate('PORTFOLIO'), date: '2024-02-26' },
-  ];
-
-  const theme = {
-    primary: '#63E6BE',
-    secondary: '#FFFFFF',
-    cardBgColor: '#FFFFFF',
-    cardForeColor: '#000000',
-    titleColor: '#000000',
-    titleColorActive: '#63E6BE'
-  }
-
   return (
-    <div className="skills-and-projects">
       <div className="skills">
         <h2>{translate('SKILLS')}</h2>
 
@@ -69,14 +50,7 @@ const SkillsAndProjects = ({ translate }) => {
           ))}
         </div>
       </div>
-      <div className="projects">
-        <h2>{translate('PROJECTS')}</h2>
-        <Chrono mode="VERTICAL_ALTERNATING" disableToolbar={true} timelinePointShape='diamond'
-          scrollable={{ scrollbar: true }} theme={theme} className='chrono'
-          items={projects.map(project => ({ title: project.title, cardTitle: project.date }))} />
-      </div>
-    </div>
   );
 };
 
-export default SkillsAndProjects;
+export default Skills;

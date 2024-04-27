@@ -1,0 +1,26 @@
+.projects {
+  max-height: 100vh;
+  margin: 0 0 2rem 6rem;
+  width: 100%;
+}
+
+.projects h2 {
+  margin-left: 2rem;
+}
+
+.chrono {
+  width: 100%;
+  max-height: 100vh;
+}
+
+@media only screen and (max-width: 1400px) {
+
+  .projects {
+    height: 90vh;
+    margin: 0 0 0 1rem;
+  }
+
+  .chrono {
+    max-height: 50vh;
+  }
+}

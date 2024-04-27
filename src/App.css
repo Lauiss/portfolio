@@ -87,7 +87,7 @@ p span:hover {
   animation: handWave 1s ease infinite;
 }
 
-.presentation-section .skills-and-projects {
+.presentation-section .skills .projects {
   margin: 0;
   padding: 0;
   height: 100vh;
@@ -109,7 +109,7 @@ p span:hover {
   }
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 900px) {
   html {
     font-size: 0.5rem;
   }
