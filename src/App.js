@@ -23,32 +23,31 @@ i18n
         translation: require('./translate/de.json')
       }
     },
-    lng: 'fr', // Langue par défaut
-    fallbackLng: 'fr', // Langue de secours
+    lng: 'fr',
+    fallbackLng: 'fr',
     interpolation: {
-      escapeValue: false // Ne pas échapper les valeurs traduites
+      escapeValue: false
     }
   });
 
 function App() {
 
   const { t: translate } = useTranslation();
+  const [language, setLanguage] = useState('fr');
 
   const changeLanguage = (lng) => {
     i18n.changeLanguage(lng);
+    setLanguage(lng);
   };
 
   const [darkMode, setDarkMode] = useState(false);
 
   useEffect(() => {
-    // Modifier le titre de la page
     document.title = "Florian AMANN";
 
-    // Modifier l'icône du navigateur
     const favicon = document.querySelector("link[rel~='icon']");
-    favicon.href = "/src/assets/page-icon.png"; // Spécifiez le chemin de votre favicon
+    favicon.href = "/src/assets/page-icon.png";
   }, []);
-
 
   const toggleDarkMode = () => {
     setDarkMode(prevDarkMode => !prevDarkMode);
@@ -56,10 +55,10 @@ function App() {
 
   return (
     <div className={(darkMode ? 'dark-theme' : 'light-theme') + " App"}>
-      <div className="App-header">
+      <div className="App-header fade-in-element">
         <CustomHeader condition={darkMode} onToggle={toggleDarkMode} lightIcon={faSun} darkIcon={faMoon} tradFunc={changeLanguage} />
       </div>
-      <div className="welcome-page" id="welcome-page">
+      <div className="welcome-page fade-in-element" id="welcome-page fade-in-element">
         <div>
           <p>{translate('HELLO')}<span className="hand-icon">👋</span></p>
           <p>{translate('I_AM')} <span>Florian</span>, {translate('SOFTWARE_ENGINEER')}</p>
@@ -70,14 +69,14 @@ function App() {
           <CustomButton href={"#projects"} icon={faDiagramProject} animateBtn={true} className="btn-margin" />
         </div>
       </div>
-      <div id="presentation" className="presentation-section">
+      <div id="presentation" className="presentation-section fade-in-element">
         <Presentation translate={translate} />
       </div>
-      <div id="skills" className="skills">
+      <div id="skills" className="skills fade-in-element">
         <Skills translate={translate} />
       </div>
-      <div id="projects" className="projects">
-        <Projects translate={translate} />
+      <div id="projects" className="projects fade-in-element">
+        <Projects language={language} translate={translate} isDarkMode={darkMode} />
       </div>
     </div>
   );
