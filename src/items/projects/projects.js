@@ -16,19 +16,26 @@ const Projects = ({ translate, isDarkMode, language }) => {
   ];
 
   const theme =  isDarkMode ? {
-    primary: '#f7f7f7',
+    primary: '#63E6BE',
     secondary: '#282c34',
-    cardBgColor: '#f7f7f7',
-    cardForeColor: '#282c34',
-    titleColor: '#00000',
-    titleColorActive: '#63E6BE'
+    cardBgColor: '#b6f0de',
+    cardForeColor: '#f7f7f7',
+    titleColor: '#f7f7f7',
+    titleColorActive: '#63E6BE',
+    cardSubtitleColor: '#f7f7f7',
+    cardTitleColor: '#63E6BE',
+    cardDetailsColor: '#f7f7f7'
+
   } : {
     primary: '#63E6BE',
     secondary: '#f7f7f7',
-    cardBgColor: '#f7f7f7',
+    cardBgColor: '#f5f5f5',
     cardForeColor: '#f7f7f7',
-    titleColor: '#63E6BE',
-    titleColorActive: '#63E6BE'
+    titleColor: '#282c34',
+    titleColorActive: '#282c34',
+    cardSubtitleColor: '#282c34',
+    cardTitleColor: '#63E6BE',
+    cardDetailsColor: '#282c34'
   }
 
   return (
