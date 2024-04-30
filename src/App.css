@@ -2,6 +2,7 @@
   --bg_color: #f7f7f7;
   --text_color: #282c34;
   --accentuation_color: #63E6BE;
+  --border_img_color: #282c34;
   transition: background-color 0.3s ease, color 0.3s ease;
 }
 
@@ -9,6 +10,7 @@
   --bg_color: #282c34;
   --text_color: #f7f7f7;
   --accentuation_color: #63E6BE;
+  --border_img_color: #63E6BE;
   transition: background-color 0.3s ease, color 0.3s ease;
 }
 
