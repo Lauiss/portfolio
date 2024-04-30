@@ -6,6 +6,7 @@ function Presentation({ translate }) {
   return (
     <div>
       <div className="presentation-page">
+        <div className="text-picture-container">
         <div className="left-block">
           <div className="img-container">
             <img src={pfp} alt="pfp" />
@@ -17,6 +18,7 @@ function Presentation({ translate }) {
             <p className="txt">{translate("PRESENTATION_TEXT")}</p>
           </div>
         </div>
+                </div>
         <div className="buttons-container">
           <button className="btn-action custom-btn"><a href={pdfcv} download> {translate('DOWNLOAD_CV')} </a></button>
           <button className="btn-action custom-btn"><a href="mailto:amann.florian@protonmail.com"> {translate('CONTACT_MAIL')} </a></button>

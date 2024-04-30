@@ -17,10 +17,10 @@
 
   .projects {
     height: 90vh;
-    margin: 0 0 0 1rem;
+    margin: 0 0 5rem 1rem;
   }
 
   .chrono {
-    max-height: 50vh;
+    max-height: 100vh;
   }
 }

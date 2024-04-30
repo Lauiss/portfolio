@@ -1,9 +1,16 @@
 .presentation-page {
   display: grid;
-  grid-template-columns: 1fr 9fr;
+  grid-template-columns: 1fr;
   gap: 1rem;
-  margin: 14rem 0 8rem 14rem;
+  margin: 14rem 0 8rem 3rem;
   align-items: center;
+}
+
+.text-picture-container {
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+  gap: 4rem;
 }
 
 .left-block {
@@ -34,12 +41,21 @@ img {
   margin: 0 0 0 10rem;
 }
 
-  .buttons-container {
-    display: flex;
-    gap: 4rem;
-    margin: 0 8rem 0 8rem;
-    flex-wrap: wrap;
-  }
+.img-container {
+  margin-left: 6rem;
+}
+
+.buttons-container {
+  display: flex;
+  gap: 4rem;
+  margin: 4rem 8rem 0 8rem;
+  flex-wrap: nowrap;
+}
+
+.txt-container .txt {
+  margin: 2rem 6rem 0 4rem;
+  justify-content: center;
+}
 
 @media only screen and (max-width: 1400px) {
 
@@ -55,6 +71,7 @@ img {
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-left: 0;
   }
 
   .left-block {
@@ -69,11 +86,19 @@ img {
     margin: 2rem 2rem;
   }
 
+  .text-picture-container {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  gap: 4rem;
+}
+
   .btn-action {
     font-size: 2rem;
   }
 
   .buttons-container {
     gap: 0;
+    flex-wrap: wrap;
   }
 }
