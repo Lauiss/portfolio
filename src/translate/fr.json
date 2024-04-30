@@ -15,7 +15,7 @@
   "SUITE_ADOBE": "Suite Adobe",
   "PROJECT_MANAGEMENT": "Gestion de projet",
   "GITHUB": "Accéder à mon GitHub",
-  "PRESENTATION_TEXT": "Je suis un ingénieur logiciel passionné par le développement informatique et constamment avide de nouvelles découvertes dans ce domaine en constante évolution. Ma passion pour le code et ma soif d'apprentissage me poussent à explorer de nouvelles technologies, à résoudre des problèmes complexes et à créer des solutions innovantes. De plus, j'aime beaucoup collaborer pour réaliser les projets qui me tiennent à coeur.",
+  "PRESENTATION_TEXT": "Je suis un ingénieur logiciel passionné par le développement informatique et constamment avide de nouvelles découvertes dans ce domaine en permanante évolution. Ma passion pour le code et ma soif d'apprentissage me poussent à explorer de nouvelles technologies, à résoudre des problèmes complexes et à créer des solutions innovantes. De plus, j'aime beaucoup collaborer pour réaliser les projets qui me tiennent à coeur.",
   "AUTOCLICKER_TITLE": "Auto Clicker",
   "AUTOCLICKER_DATE": "Juin 2020",
   "AUTOCLICKER_DESCRIPTION": "Premier programme que j'ai développé en utilisant Python, pour automatiser les tâches répétititves d'un jeu vidéo. ",
@@ -32,5 +32,4 @@
   "PORTFOLIO_DATE": "Février 2024",
   "PORTFOLIO_DESCRIPTION": "Réalisé avec le framework React, c'est le site que vous êtes actuellement entrain de consulter.",
   "PRIVATE_REPOSITORY": "Repo GitHub Privé"
-
 }
