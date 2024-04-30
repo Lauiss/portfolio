@@ -17,12 +17,12 @@ function Presentation({ translate }) {
             <p className="txt">{translate("PRESENTATION_TEXT")}</p>
           </div>
         </div>
-      </div>
-      <div className="buttons-container">
-        <button className="btn-action custom-btn"><a href={pdfcv} download> {translate('DOWNLOAD_CV')} </a></button>
-        <button className="btn-action custom-btn"><a href="mailto:amann.florian@protonmail.com"> {translate('CONTACT_MAIL')} </a></button>
-        <button className="btn-action custom-btn"><a href="https://linkedin.com/in/florian-amann/" target='_blank' rel="noreferrer"> {translate('LINKEDIN')} </a></button>
-        <button className="btn-action custom-btn"><a href="https://github.com/Lauiss" target='_blank' rel="noreferrer"> {translate('GITHUB')} </a></button>
+        <div className="buttons-container">
+          <button className="btn-action custom-btn"><a href={pdfcv} download> {translate('DOWNLOAD_CV')} </a></button>
+          <button className="btn-action custom-btn"><a href="mailto:amann.florian@protonmail.com"> {translate('CONTACT_MAIL')} </a></button>
+          <button className="btn-action custom-btn"><a href="https://linkedin.com/in/florian-amann/" target='_blank' rel="noreferrer"> {translate('LINKEDIN')} </a></button>
+          <button className="btn-action custom-btn"><a href="https://github.com/Lauiss" target='_blank' rel="noreferrer"> {translate('GITHUB')} </a></button>
+        </div>
       </div>
     </div>
 

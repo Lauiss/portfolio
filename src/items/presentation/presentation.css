@@ -38,6 +38,7 @@ img {
     display: flex;
     gap: 4rem;
     margin: 0 8rem 0 8rem;
+    flex-wrap: wrap;
   }
 
 @media only screen and (max-width: 1400px) {
@@ -70,5 +71,9 @@ img {
 
   .btn-action {
     font-size: 2rem;
+  }
+
+  .buttons-container {
+    gap: 0;
   }
 }
