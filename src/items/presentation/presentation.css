@@ -84,6 +84,7 @@ img {
 
   .txt-container .txt {
     margin: 2rem 2rem;
+    justify-content: center;
   }
 
   .text-picture-container {

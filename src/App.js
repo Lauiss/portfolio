@@ -59,7 +59,7 @@ function App() {
         <CustomHeader condition={darkMode} onToggle={toggleDarkMode} lightIcon={faSun} darkIcon={faMoon} tradFunc={changeLanguage} />
       </div>
       <div className="welcome-page fade-in-element" id="welcome-page fade-in-element">
-        <div>
+        <div className="welcome-text">
           <p>{translate('HELLO')}<span className="hand-icon">👋</span></p>
           <p>{translate('I_AM')} <span>Florian</span>, {translate('SOFTWARE_ENGINEER')}</p>
         </div>

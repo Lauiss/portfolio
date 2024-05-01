@@ -61,6 +61,11 @@ p {
   height: 100vh;
 }
 
+.welcome-text {
+  margin-left: 2rem;
+  margin-top: 2rem;
+}
+
 p span {
   font-weight: 600;
 }
