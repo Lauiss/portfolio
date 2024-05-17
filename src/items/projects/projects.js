@@ -40,7 +40,7 @@ const Projects = ({ translate, isDarkMode, language }) => {
 
   return (
     <div className="projects">
-      <h2>{translate('PROJECTS')}</h2>
+      <h2>{translate('PERSONAL_PROJECTS')}</h2>
       <div className='chrono'>
         <Chrono
           key={`${language}-${isDarkMode} ? 'dark' : 'light'`}

@@ -64,7 +64,7 @@ function App() {
           <p>{translate('I_AM')} <span>Florian</span>, {translate('SOFTWARE_ENGINEER')}</p>
         </div>
         <div className="btns-containers">
-          <CustomButton href={"#presentation"} icon={faUser} animateBtn={true} className="btn-margin" />
+          <CustomButton href={"#presentation"} icon={faUser} animateBtn={true} className="btn-margin" tooltipText="test" />
           <CustomButton href={"#skills"} icon={faPuzzlePiece} animateBtn={true} className="btn-margin" />
           <CustomButton href={"#projects"} icon={faDiagramProject} animateBtn={true} className="btn-margin" />
         </div>
