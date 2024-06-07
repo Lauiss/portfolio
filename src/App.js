@@ -78,6 +78,10 @@ function App() {
       <div id="projects" className="projects fade-in-element">
         <Projects language={language} translate={translate} isDarkMode={darkMode} />
       </div>
+
+      <div className="footer">
+        <p>{translate('FOOTER_TEXT')}</p>
+      </div>
     </div>
   );
 }

@@ -31,5 +31,6 @@
   "PORTFOLIO_TITLE": "Portfolio",
   "PORTFOLIO_DATE": "Février 2024",
   "PORTFOLIO_DESCRIPTION": "Réalisé avec le framework React, c'est le site que vous êtes actuellement entrain de consulter.",
-  "PRIVATE_REPOSITORY": "Repo GitHub Privé"
+  "PRIVATE_REPOSITORY": "Repo GitHub Privé",
+  "FOOTER_TEXT": "© 2024 - Tous droits réservés - Réalisé par Florian AMANN - Portfolio"
 }
