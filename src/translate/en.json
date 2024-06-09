@@ -37,5 +37,8 @@
   "PORTFOLIO_DATE": "February 2024",
   "PORTFOLIO_DESCRIPTION": "Built with the React framework, this is the site you are currently viewing.",
   "PRIVATE_REPOSITORY": "Private GitHub Repo",
+  "OPDL_DATE": "February 2024",
+  "OPDL_TITLE": "Onepiecedle",
+  "OPDL_DESCRIPTION": "A -dle type game around the one piece universe, development stopped because another one came out before ours.",
   "FOOTER_TEXT": "© 2024 - All rights reserved - Developed by Florian AMANN - Portfolio"
 }
