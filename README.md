@@ -1,4 +1,4 @@
-# Portefolio
+# Portfolio
 
 ## Description
 Mon site web vitrine, realisé avec React et React-chrono.
