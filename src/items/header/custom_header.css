@@ -9,13 +9,14 @@
 
   .lang-span {
     cursor: pointer;
+    transition: 0.3s ease;
   }
 
   .active,
   .lang-span:hover {
-    text-decoration: underline;
     color: var(--accentuation_color);
     text-decoration-color: var(--accentuation_color);
+    font-size: 120%;
     transition: 0.3s ease;
   }
 
@@ -48,13 +49,35 @@
   }
 
   .toggle-icon {
-    margin: 0 1rem 0 0;
+    margin: .25rem 1rem 0 0;
+  }
+
+  .toggle-icon:hover {
+    animation: bouncy 0.5s ease;
   }
 
   a {
     text-decoration: none;
     color: inherit;
 
+  }
+
+  .navigation-icon {
+    transition: 0.3 ease;
+  }
+
+  .navigation-icon:hover {
+    color: var(--accentuation_color);
+    font-size: 120%;
+    transition: 0.3s ease;
+  }
+
+  .navigation-menu {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    justify-content: space-between;
+    margin: 1rem 3rem 1rem 1rem;
   }
 
 

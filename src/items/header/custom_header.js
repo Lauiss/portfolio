@@ -1,3 +1,5 @@
+import { faDiagramProject, faPuzzlePiece, faUser } from '@fortawesome/free-solid-svg-icons';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import i18n from 'i18next';
 import React from 'react';
 import Toggle from '../../components/toggle/toggle';
@@ -12,15 +14,20 @@ function CustomHeader({ condition, onToggle, lightIcon, darkIcon, tradFunc }) {
         <Toggle className="toggle-icon" condition={condition} onToggle={onToggle} lightIcon={lightIcon} darkIcon={darkIcon} />
         <label>
           <span className={`lang-span ${activeLanguage === 'fr' ? 'active' : ''}`} onClick={() => tradFunc('fr')}>
-            Fr
+            FR
           </span>|
           <span className={`lang-span ${activeLanguage === 'de' ? 'active' : ''}`} onClick={() => tradFunc('de')}>
-            De
+            DE
           </span>|
           <span className={`lang-span ${activeLanguage === 'en' ? 'active' : ''}`} onClick={() => tradFunc('en')}>
-            En
+            EN
           </span>
         </label>
+      </div>
+      <div className="navigation-menu">
+        <a href={"#presentation"}><span><FontAwesomeIcon icon={faUser} className="navigation-icon" /></span></a>
+        <a href={"#skills"}><span><FontAwesomeIcon icon={faPuzzlePiece} className="navigation-icon" /></span></a>
+        <a href={"#projects"}><span><FontAwesomeIcon icon={faDiagramProject} className="navigation-icon" /></span></a>
       </div>
     </div>
   )

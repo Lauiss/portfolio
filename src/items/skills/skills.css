@@ -21,6 +21,12 @@
 
 .skill-badge {
   max-width: 25%;
+  transition: 0.4s ease;
+}
+
+.skill-badge:hover, .other-skill-badge:hover {
+  transform: scale(1.10);
+  transition: 0.4s ease;
 }
 
 .other-skill-badge {

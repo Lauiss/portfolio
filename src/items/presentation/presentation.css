@@ -2,7 +2,7 @@
   display: grid;
   grid-template-columns: 1fr;
   gap: 1rem;
-  margin: 14rem 0 8rem 0;
+  margin: 18rem 0 8rem 0;
   align-items: center;
 }
 
@@ -14,7 +14,7 @@
 }
 
 .left-block {
-  margin: 1rem 0 0 5rem;
+  margin-left: 5rem;
 }
 
 img {
@@ -29,16 +29,23 @@ img {
   font-size: 1rem;
   font-weight: 600;
   margin: 1rem 0 1rem 0;
+  width: 100%;
+  transition: 0.4s ease;
+}
+
+.btn-action:hover {
+  transform: scale(1.10);
+  transition: 0.4s ease;
 }
 
 .presentation-page p {
-  font-size: 1.5rem;
+  font-size: 1.75rem;
   margin: 2rem 10rem 0 10rem;
-  text-align: auto;
+  text-align: justify;
 }
 
 .title {
-  margin: 0 0 0 10rem;
+  margin: 0 0 0 4rem;
 }
 
 .img-container {
@@ -47,8 +54,10 @@ img {
 
 .buttons-container {
   display: flex;
+  flex-direction: row-reverse;
   gap: 4rem;
-  margin: 4rem 2rem 0 4rem;
+  margin-top: 4rem;
+  margin-right: 8rem;
   flex-wrap: nowrap;
 }
 

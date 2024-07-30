@@ -113,18 +113,32 @@ p span:hover {
   }
 }
 
+.bouncy-animated:hover {
+  animation: bouncy 0.5s ease;
+}
+
 @keyframes handWave {
-  0% {
-    transform: rotate(-20deg);
-  }
-
-  50% {
-    transform: rotate(0deg);
-  }
-
-  100% {
-    transform: rotate(-20deg);
-  }
+    0% {
+      transform: rotate(0deg);
+    }
+    10% {
+      transform: rotate(-20deg);
+    }
+    20% {
+      transform: rotate(20deg);
+    }
+    30% {
+      transform: rotate(-20deg);
+    }
+    40% {
+      transform: rotate(20deg);
+    }
+    50% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(0deg);
+    }
 }
 
 @keyframes fadeInUp {

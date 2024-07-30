@@ -1,4 +1,5 @@
-import { faDiagramProject, faMoon, faPuzzlePiece, faSun, faUser } from '@fortawesome/free-solid-svg-icons';
+import { faGithub, faItchIo, faLinkedin } from '@fortawesome/free-brands-svg-icons';
+import { faMoon, faSun } from '@fortawesome/free-solid-svg-icons';
 import i18n from 'i18next';
 import React, { useEffect, useState } from 'react';
 import { initReactI18next, useTranslation } from 'react-i18next';
@@ -61,12 +62,12 @@ function App() {
       <div className="welcome-page fade-in-element" id="welcome-page fade-in-element">
         <div className="welcome-text">
           <p>{translate('HELLO')}<span className="hand-icon">👋</span></p>
-          <p>{translate('I_AM')} <span>Florian</span>, {translate('SOFTWARE_ENGINEER')}</p>
+          <p>{translate('I_AM')} Florian, {translate('SOFTWARE_ENGINEER')}</p>
         </div>
         <div className="btns-containers">
-          <CustomButton href={"#presentation"} icon={faUser} animateBtn={true} className="btn-margin" tooltipText="test" />
-          <CustomButton href={"#skills"} icon={faPuzzlePiece} animateBtn={true} className="btn-margin" />
-          <CustomButton href={"#projects"} icon={faDiagramProject} animateBtn={true} className="btn-margin" />
+          <CustomButton href={"https://linkedin.com/in/florian-amann/"} icon={faLinkedin} animateBtn={true} className="bouncy-animated" />
+          <CustomButton href={"https://github.com/Lauiss"} icon={faGithub} animateBtn={true} className="bouncy-animated" />
+          <CustomButton href={"https://lauiss.itch.io/"} icon={faItchIo} animateBtn={true} className="bouncy-animated" />
         </div>
       </div>
       <div id="presentation" className="presentation-section fade-in-element">
