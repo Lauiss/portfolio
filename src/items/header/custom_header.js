@@ -1,4 +1,4 @@
-import { faDiagramProject, faPuzzlePiece, faUser } from '@fortawesome/free-solid-svg-icons';
+import { faDiagramProject, faHouse, faPuzzlePiece, faUser } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import i18n from 'i18next';
 import React from 'react';
@@ -25,6 +25,7 @@ function CustomHeader({ condition, onToggle, lightIcon, darkIcon, tradFunc }) {
         </label>
       </div>
       <div className="navigation-menu">
+        <a href={"#welcome"}><span><FontAwesomeIcon icon={faHouse} className="navigation-icon" /></span></a>
         <a href={"#presentation"}><span><FontAwesomeIcon icon={faUser} className="navigation-icon" /></span></a>
         <a href={"#skills"}><span><FontAwesomeIcon icon={faPuzzlePiece} className="navigation-icon" /></span></a>
         <a href={"#projects"}><span><FontAwesomeIcon icon={faDiagramProject} className="navigation-icon" /></span></a>

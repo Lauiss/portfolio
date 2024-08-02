@@ -55,7 +55,7 @@ function App() {
   }
 
   return (
-    <div className={(darkMode ? 'dark-theme' : 'light-theme') + " App"}>
+    <div className={(darkMode ? 'dark-theme' : 'light-theme') + " App"} id="welcome">
       <div className="App-header fade-in-element">
         <CustomHeader condition={darkMode} onToggle={toggleDarkMode} lightIcon={faSun} darkIcon={faMoon} tradFunc={changeLanguage} />
       </div>
