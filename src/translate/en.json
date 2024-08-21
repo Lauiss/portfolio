@@ -26,7 +26,7 @@
   "AUTOCLICKER_DESCRIPTION": "First program I developed using Python, to automate repetitive tasks in a video game.",
   "DISCORD_BOT_TITLE": "Discord Bot",
   "DISCORD_BOT_DATE": "January 2021",
-  "DISCORD_BOT_DESCRIPTION": "Program created in JavaScript in collaboration with my Computer Science DUT class, used to retrieve class schedules, absences, and various other commands.",
+  "DISCORD_BOT_DESCRIPTION": "Program created in JavaScript in collaboration with my Computer Science DUT class, used to retrieve class schedules, absences, and various other commands. - Private repository.",
   "PWD_GENERATOR_TITLE": "Password Generator",
   "PWD_GENERATOR_DATE": "August 2021",
   "PWD_GENERATOR_DESCRIPTION": "Program created in Python used to generate passwords with various levels of security.",
@@ -40,5 +40,11 @@
   "OPDL_DATE": "February 2024",
   "OPDL_TITLE": "Onepiecedle",
   "OPDL_DESCRIPTION": "A -dle type game around the one piece universe, development stopped because another one came out before ours.",
+  "GODOT_WILDJAM_70_DATE": "May 2024",
+  "GODOT_WILDJAM_70_TITLE": "Dawnfire - GWJ 70",
+  "GODOT_WILDJAM_70_DESCRIPTION": "A game made in one week for the Godot Wild Jam 70, on the theme of folklore. Made in GDScript and C# with the Godot game engine.",
+  "GODOT_WILDJAM_71_DATE": "June 2024",
+  "GODOT_WILDJAM_71_TITLE": "Color beats - GWJ 71",
+  "GODOT_WILDJAM_71_DESCRIPTION": "A game made in one week for the Godot Wild Jam 71, on the theme of inintended consequences. Made in GDScript with the Godot game engine.",
   "FOOTER_TEXT": "© 2024 - All rights reserved - Developed by Florian AMANN - Portfolio"
 }

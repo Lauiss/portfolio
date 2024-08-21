@@ -21,7 +21,7 @@
   "AUTOCLICKER_DESCRIPTION": "Premier programme que j'ai développé en utilisant Python, pour automatiser les tâches répétititves d'un jeu vidéo. ",
   "DISCORD_BOT_TITLE": "Bot Discord",
   "DISCORD_BOT_DATE": "Janvier 2021",
-  "DISCORD_BOT_DESCRIPTION": "Programme réalisé en JavaScript en collaboration avec ma promotion de DUT Informatique, servant notamment a récupérer les salles de cours, les absences et divers autres commandes.",
+  "DISCORD_BOT_DESCRIPTION": "Programme réalisé en JavaScript en collaboration avec ma promotion de DUT Informatique, servant notamment a récupérer les salles de cours, les absences et divers autres commandes. - Répertoire privé",
   "PWD_GENERATOR_TITLE": "Générateur de mots de passe",
   "PWD_GENERATOR_DATE": "Aout 2021",
   "PWD_GENERATOR_DESCRIPTION": "Programme réalisé en Python servant a générer des mots de passe avec divers niveaux de sécurité.",
@@ -35,5 +35,11 @@
   "OPDL_DATE": "Février 2024",
   "OPDL_TITLE": "Onepiecedle",
   "OPDL_DESCRIPTION": "Un jeu type -dle sur l'unviers de one piece, développement stoppé car une autre version à vu le jour",
+  "GODOT_WILDJAM_70_DATE": "Mai 2024",
+  "GODOT_WILDJAM_70_TITLE": "Dawnfire - GWJ 70",
+  "GODOT_WILDJAM_70_DESCRIPTION": "Un jeu réalisé en une semaine pour la Godot Wild Jam 70, sur le thème du folklore. Réalisé en C# et GDScript avec le moteur de jeu Godot.",
+  "GODOT_WILDJAM_71_DATE": "Juin 2024",
+  "GODOT_WILDJAM_71_TITLE": "Color beats - GWJ 71 ",
+  "GODOT_WILDJAM_71_DESCRIPTION": "Un jeu réalisé en une semaine pour la Godot Wild Jam 71, sur le thème des conséquences inatentues. Réalisé en GDScript avec le moteur de jeu Godot.",
   "FOOTER_TEXT": "© 2024 - Tous droits réservés - Réalisé par Florian AMANN - Portfolio"
 }
