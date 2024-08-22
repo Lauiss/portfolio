@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/static/css/main.fa5fe418.css",
-    "main.js": "/static/js/main.5d670a66.js",
-    "static/media/CV-AMANN-Florian.pdf": "/static/media/CV-AMANN-Florian.ca87a3a70ce5f46d85cf.pdf",
-    "static/media/pdp.png": "/static/media/pdp.a6c20b473d94138535cd.png",
-    "static/media/password_generator_logo.jpg": "/static/media/password_generator_logo.afbaa312f5a6e89d0a3a.jpg",
-    "static/media/click_logo.jpg": "/static/media/click_logo.6811d3cb4eeaa45eb5eb.jpg",
-    "static/media/discord_logo.jpg": "/static/media/discord_logo.e0df9f9a46e998c5db1a.jpg",
-    "static/media/code_logo.png": "/static/media/code_logo.422d7c99b35b75e5afc6.png",
-    "index.html": "/index.html",
-    "main.fa5fe418.css.map": "/static/css/main.fa5fe418.css.map",
-    "main.5d670a66.js.map": "/static/js/main.5d670a66.js.map"
+    "main.css": "/portfolio/static/css/main.fa5fe418.css",
+    "main.js": "/portfolio/static/js/main.c39610f9.js",
+    "static/media/CV-AMANN-Florian.pdf": "/portfolio/static/media/CV-AMANN-Florian.ca87a3a70ce5f46d85cf.pdf",
+    "static/media/pdp.png": "/portfolio/static/media/pdp.a6c20b473d94138535cd.png",
+    "static/media/password_generator_logo.jpg": "/portfolio/static/media/password_generator_logo.afbaa312f5a6e89d0a3a.jpg",
+    "static/media/click_logo.jpg": "/portfolio/static/media/click_logo.6811d3cb4eeaa45eb5eb.jpg",
+    "static/media/discord_logo.jpg": "/portfolio/static/media/discord_logo.e0df9f9a46e998c5db1a.jpg",
+    "static/media/code_logo.png": "/portfolio/static/media/code_logo.422d7c99b35b75e5afc6.png",
+    "index.html": "/portfolio/index.html",
+    "main.fa5fe418.css.map": "/portfolio/static/css/main.fa5fe418.css.map",
+    "main.c39610f9.js.map": "/portfolio/static/js/main.c39610f9.js.map"
   },
   "entrypoints": [
     "static/css/main.fa5fe418.css",
-    "static/js/main.5d670a66.js"
+    "static/js/main.c39610f9.js"
   ]
 }
