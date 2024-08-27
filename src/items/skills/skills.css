@@ -1,5 +1,5 @@
 .skills {
-  height: 100vh;
+  min-height: 100vh;
   margin: 8rem 0 5rem 6rem;
 }
 
@@ -24,7 +24,8 @@
   transition: 0.4s ease;
 }
 
-.skill-badge:hover, .other-skill-badge:hover {
+.skill-badge:hover,
+.other-skill-badge:hover {
   transform: scale(1.10);
   transition: 0.4s ease;
 }
@@ -50,11 +51,13 @@
     margin: 15rem 0 0 1rem;
   }
 
-  .skills-container, .other-skills-container {
+  .skills-container,
+  .other-skills-container {
     margin-left: 1rem;
   }
 
-  .skill-badge, .other-skill-badge{
+  .skill-badge,
+  .other-skill-badge {
     max-width: 75%;
   }
 

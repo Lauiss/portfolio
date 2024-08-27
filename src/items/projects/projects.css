@@ -7,7 +7,6 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  margin-bottom: 5rem;
   padding-top: 4rem;
 }
 
@@ -18,7 +17,7 @@
 .carousel-container {
   display: flex;
   align-items: center;
-  width: 40%;
+  width: 100%;
   position: relative;
 }
 
@@ -113,11 +112,11 @@
 }
 
 .carousel-button.left {
-  left: -10rem;
+  left: -7rem;
 }
 
 .carousel-button.right {
-  right: -10rem;
+  right: -7rem;
 }
 
 .carousel-button:hover {
@@ -132,7 +131,7 @@
 
 @media only screen and (max-width: 1400px) {
   .projects {
-    height: 90vh;
-    margin: 0 0 5rem 1rem;
+    min-height: 90vh;
+    margin: 0;
   }
 }

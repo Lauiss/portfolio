@@ -63,12 +63,12 @@
   }
 
   .navigation-icon {
-    transition: 0.3 ease;
+    transition: 0.5s ease;
   }
 
   .navigation-icon:hover {
     color: var(--accentuation_color);
-    font-size: 120%;
+    transform: scale(1.30);
     transition: 0.3s ease;
   }
 
@@ -81,10 +81,10 @@
   }
 
 
-@media only screen and (max-width: 900px) {
+  @media only screen and (max-width: 900px) {
 
-  .headerContainer {
-    font-size: 3rem;
-    margin-top: 2rem;
+    .headerContainer {
+      font-size: 3rem;
+      margin-top: 2rem;
+    }
   }
-}
