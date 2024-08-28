@@ -21,6 +21,7 @@ const Skills = ({ translate }) => {
     { name: 'Python', icon: faPython },
     { name: 'GDScript', icon: faCode },
     { name: 'C#', icon: faCode },
+    { name: 'RFID', icon: faTerminal }
   ];
 
   const otherSkills = [
@@ -30,31 +31,31 @@ const Skills = ({ translate }) => {
     { name: translate('SUITE_MICROSOFT'), icon: faWindows },
     { name: translate('PROJECT_MANAGEMENT'), icon: faDiagramProject },
     { name: 'Figma', icon: faFigma },
-    { name: 'Git', icon: faGit },
+    { name: 'Git', icon: faGit }
   ];
 
   return (
-      <div className="skills">
-        <h2>{translate('SKILLS')}</h2>
+    <div className="skills">
+      <h2>{translate('SKILLS')}</h2>
 
-        <div className='skills-container'>
-          {skills.map((skill, index) => (
-            <div key={index} className="skill-badge">
-              <FontAwesomeIcon icon={skill.icon} className='icon' />
-              {skill.name}
-            </div>
-          ))}
-        </div>
-        <h2>{translate('OTHER_SKILLS')}</h2>
-        <div className='other-skills-container'>
-          {otherSkills.map((skill, index) => (
-            <div key={index} className="other-skill-badge">
-              <FontAwesomeIcon icon={skill.icon} className='icon' />
-              {skill.name}
-            </div>
-          ))}
-        </div>
+      <div className='skills-container'>
+        {skills.map((skill, index) => (
+          <div key={index} className="skill-badge">
+            <FontAwesomeIcon icon={skill.icon} className='icon' />
+            {skill.name}
+          </div>
+        ))}
       </div>
+      <h2>{translate('OTHER_SKILLS')}</h2>
+      <div className='other-skills-container'>
+        {otherSkills.map((skill, index) => (
+          <div key={index} className="other-skill-badge">
+            <FontAwesomeIcon icon={skill.icon} className='icon' />
+            {skill.name}
+          </div>
+        ))}
+      </div>
+    </div>
   );
 };
 
