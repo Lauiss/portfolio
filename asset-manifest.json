@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.b40b0a2a.css",
-    "main.js": "/portfolio/static/js/main.c39610f9.js",
+    "main.css": "/portfolio/static/css/main.b25b33e4.css",
+    "main.js": "/portfolio/static/js/main.040338e3.js",
     "static/media/CV-AMANN-Florian.pdf": "/portfolio/static/media/CV-AMANN-Florian.ca87a3a70ce5f46d85cf.pdf",
     "static/media/pdp.png": "/portfolio/static/media/pdp.a6c20b473d94138535cd.png",
     "static/media/password_generator_logo.jpg": "/portfolio/static/media/password_generator_logo.afbaa312f5a6e89d0a3a.jpg",
@@ -9,11 +9,11 @@
     "static/media/discord_logo.jpg": "/portfolio/static/media/discord_logo.e0df9f9a46e998c5db1a.jpg",
     "static/media/code_logo.png": "/portfolio/static/media/code_logo.422d7c99b35b75e5afc6.png",
     "index.html": "/portfolio/index.html",
-    "main.b40b0a2a.css.map": "/portfolio/static/css/main.b40b0a2a.css.map",
-    "main.c39610f9.js.map": "/portfolio/static/js/main.c39610f9.js.map"
+    "main.b25b33e4.css.map": "/portfolio/static/css/main.b25b33e4.css.map",
+    "main.040338e3.js.map": "/portfolio/static/js/main.040338e3.js.map"
   },
   "entrypoints": [
-    "static/css/main.b40b0a2a.css",
-    "static/js/main.c39610f9.js"
+    "static/css/main.b25b33e4.css",
+    "static/js/main.040338e3.js"
   ]
 }
