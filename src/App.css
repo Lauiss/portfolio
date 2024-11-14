@@ -26,10 +26,8 @@ p {
 .App {
   display: grid;
   grid-template-rows: max-content 1fr;
-  height: 100%;
   width: 100%;
   background-color: var(--bg_color);
-  min-height: 100vh;
   font-size: calc(10px + 2vmin);
   color: var(--text_color);
 }
@@ -45,8 +43,8 @@ p {
   left: 0;
   right: 0;
   z-index: 999;
-  margin-top: 1rem;
-  background-color: var(--background_color);
+  background-color: var(--bg_color);
+  transition: background-color 0.3s ease, color 0.3s ease;
 }
 
 .welcome-page {
@@ -56,6 +54,7 @@ p {
   justify-content: center;
   font-size: 3rem;
   margin: 0;
+  margin-top: 20rem;
   padding: 0;
   font-size: 10rem;
   align-items: center;
@@ -105,13 +104,11 @@ p span:hover {
 }
 
 .projects {
-  padding: 2rem;
   height: auto;
 }
 
 .presentation-section {
   margin: 2rem 0;
-  padding: 2rem;
   height: auto;
 }
 
@@ -134,8 +131,6 @@ p span:hover {
 .skills,
 .projects {
   height: auto;
-  padding: 2rem 1rem;
-  /* Ajuster pour un meilleur espacement */
 }
 
 
@@ -144,6 +139,7 @@ p span:hover {
   align-items: center;
   width: 100%;
   justify-content: center;
+  margin-bottom: 2rem;  
 
   p {
     font-size: 1rem;
@@ -226,8 +222,6 @@ p span:hover {
   .projects {
     height: auto;
     margin-top: 2rem;
-    padding: 2rem;
-    /* Ajuster selon les besoins */
   }
 }
 

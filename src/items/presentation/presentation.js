@@ -9,7 +9,7 @@ function Presentation({ translate }) {
         <div className="text-picture-container">
         <div className="left-block">
           <div className="img-container">
-            <img src={pfp} alt="pfp" />
+            <img src={pfp} alt="pfp" className="pfp" />
           </div>
         </div>
         <div className="right-block">
