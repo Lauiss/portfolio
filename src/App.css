@@ -206,6 +206,12 @@ p span:hover {
   .App-header {
     font-size: 0.5rem;
   }
+
+  .welcome-page {
+    padding-top: 5rem;
+    margin-top: 100%;
+    margin-bottom: 50%;
+  }
 }
 
 @media only screen and (min-width: 901px) and (max-width: 1024px) {
@@ -215,6 +221,8 @@ p span:hover {
 
   .welcome-page {
     padding-top: 5rem;
+    margin-top: 100%;
+    margin-bottom: 50%;
   }
 
   .presentation-section,

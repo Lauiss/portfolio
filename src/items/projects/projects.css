@@ -108,6 +108,10 @@
     font-size: 1.2rem;
   }
 
+  .project-item {
+    margin-left: 20%;
+  }
+
 }
 
 @media only screen and (max-width: 768px) {
@@ -121,6 +125,10 @@
 
   .project-description {
     font-size: 1.2rem;
+  }
+
+  .project-item {
+    margin-left: 20%;
   }
 }
 
