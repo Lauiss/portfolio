@@ -1,19 +1,21 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.b25b33e4.css",
-    "main.js": "/portfolio/static/js/main.040338e3.js",
+    "main.css": "/portfolio/static/css/main.6285ebc8.css",
+    "main.js": "/portfolio/static/js/main.af8b7ac8.js",
     "static/media/CV-AMANN-Florian.pdf": "/portfolio/static/media/CV-AMANN-Florian.ca87a3a70ce5f46d85cf.pdf",
     "static/media/pdp.png": "/portfolio/static/media/pdp.a6c20b473d94138535cd.png",
-    "static/media/password_generator_logo.jpg": "/portfolio/static/media/password_generator_logo.afbaa312f5a6e89d0a3a.jpg",
-    "static/media/click_logo.jpg": "/portfolio/static/media/click_logo.6811d3cb4eeaa45eb5eb.jpg",
-    "static/media/discord_logo.jpg": "/portfolio/static/media/discord_logo.e0df9f9a46e998c5db1a.jpg",
-    "static/media/code_logo.png": "/portfolio/static/media/code_logo.422d7c99b35b75e5afc6.png",
+    "static/media/code_generic.png": "/portfolio/static/media/code_generic.87948a96d4ae35c05ac3.png",
+    "static/media/autoclick.png": "/portfolio/static/media/autoclick.e86e43261df1c64f5250.png",
+    "static/media/colorbeat.png": "/portfolio/static/media/colorbeat.0485e849869596ecc474.png",
+    "static/media/dawnfire.png": "/portfolio/static/media/dawnfire.633cd0f3b4d8c80ee6ce.png",
+    "static/media/discordbot.png": "/portfolio/static/media/discordbot.d739f1f848c994e4ff1a.png",
+    "static/media/pwd_generator.png": "/portfolio/static/media/pwd_generator.6c447ba070a797357df3.png",
     "index.html": "/portfolio/index.html",
-    "main.b25b33e4.css.map": "/portfolio/static/css/main.b25b33e4.css.map",
-    "main.040338e3.js.map": "/portfolio/static/js/main.040338e3.js.map"
+    "main.6285ebc8.css.map": "/portfolio/static/css/main.6285ebc8.css.map",
+    "main.af8b7ac8.js.map": "/portfolio/static/js/main.af8b7ac8.js.map"
   },
   "entrypoints": [
-    "static/css/main.b25b33e4.css",
-    "static/js/main.040338e3.js"
+    "static/css/main.6285ebc8.css",
+    "static/js/main.af8b7ac8.js"
   ]
 }
