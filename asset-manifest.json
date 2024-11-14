@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.6285ebc8.css",
+    "main.css": "/portfolio/static/css/main.887b17e3.css",
     "main.js": "/portfolio/static/js/main.af8b7ac8.js",
     "static/media/CV-AMANN-Florian.pdf": "/portfolio/static/media/CV-AMANN-Florian.ca87a3a70ce5f46d85cf.pdf",
     "static/media/pdp.png": "/portfolio/static/media/pdp.a6c20b473d94138535cd.png",
@@ -11,11 +11,11 @@
     "static/media/discordbot.png": "/portfolio/static/media/discordbot.d739f1f848c994e4ff1a.png",
     "static/media/pwd_generator.png": "/portfolio/static/media/pwd_generator.6c447ba070a797357df3.png",
     "index.html": "/portfolio/index.html",
-    "main.6285ebc8.css.map": "/portfolio/static/css/main.6285ebc8.css.map",
+    "main.887b17e3.css.map": "/portfolio/static/css/main.887b17e3.css.map",
     "main.af8b7ac8.js.map": "/portfolio/static/js/main.af8b7ac8.js.map"
   },
   "entrypoints": [
-    "static/css/main.6285ebc8.css",
+    "static/css/main.887b17e3.css",
     "static/js/main.af8b7ac8.js"
   ]
 }
